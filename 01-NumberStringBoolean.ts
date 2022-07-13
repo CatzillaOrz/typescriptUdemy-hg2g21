@@ -1,4 +1,7 @@
 export class NumberStringBoolean {
+  constructor() {
+    this.run();
+  }
   create() {
     this.add(1, 2, true, 'reselt is:');
   }

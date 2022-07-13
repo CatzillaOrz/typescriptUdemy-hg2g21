@@ -7,6 +7,13 @@ import { NumberStringBoolean } from './01-NumberStringBoolean';
 // const appDiv: HTMLElement = document.getElementById('app');
 // appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 
-//
+/*
+ ** [number]
+ ** [string]
+ ** [boolean]
+ ** [object]
+ ** [array]
+ **
+ */
 
 myFun(NumberStringBoolean);
