@@ -4,6 +4,9 @@ import { myFun } from './00-myFun';
 import { NumberStringBoolean } from './01-NumberStringBoolean';
 import { TsObjectArray } from './02-ObjectArray';
 import { myTuplesEnum } from './03-TuplesEnum';
+import { UnionType } from './04-UnionType';
+import { LiteralType } from './05-LiteralType';
+import { AliasesCustomTypes } from './06-AliasesCustomTypes';
 
 /*
  ** Core Type
@@ -22,7 +25,13 @@ import { myTuplesEnum } from './03-TuplesEnum';
 
 // myFun(TsObjectArray);
 
-myFun(myTuplesEnum);
+// myFun(myTuplesEnum);
+
+// myFun(UnionType);
+
+// myFun(LiteralType);
+
+// myFun(AliasesCustomTypes);
 
 // Write TypeScript code!
 // const appDiv: HTMLElement = document.getElementById('app');
