@@ -14,6 +14,7 @@ import { myTuplesEnum } from './03-TuplesEnum';
  ** [Array]
  ** [Tuple]
  ** [Enum]
+ ** [Any]
  **
  */
 
