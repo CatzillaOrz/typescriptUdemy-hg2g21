@@ -1,4 +1,4 @@
-export class UnionType {
+export class LiteralType {
   constructor() {}
 
   combine(
