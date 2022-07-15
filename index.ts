@@ -7,6 +7,7 @@ import { myTuplesEnum } from './03-TuplesEnum';
 import { UnionType } from './04-UnionType';
 import { LiteralType } from './05-LiteralType';
 import { AliasesCustomTypes } from './06-AliasesCustomTypes';
+import { NeverType } from './11-NeverType';
 
 /*
  ** Core Type
@@ -32,6 +33,8 @@ import { AliasesCustomTypes } from './06-AliasesCustomTypes';
 // myFun(LiteralType);
 
 // myFun(AliasesCustomTypes);
+
+myFun(NeverType);
 
 // Write TypeScript code!
 // const appDiv: HTMLElement = document.getElementById('app');
