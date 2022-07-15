@@ -1,4 +1,4 @@
-export class FunctionRetureType {
+export class FunctionReturnType {
   constructor() {}
 
   add(n1: number, n2: number): number {
