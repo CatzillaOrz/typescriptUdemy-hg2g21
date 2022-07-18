@@ -62,11 +62,21 @@ tsc --init
     "noFallthroughCasesInSwitch": true,   /* Report errors */
 
     /* Module Resolution Options */
-    "moduleResolution": "node",
-    "baseUrl": "./",
-    "paths": "{}",
-    "rootDirs": "[]",
-    "typeRoots": "[]",
+    "moduleResolution": "node",   /* Specify module resolution strategy */
+    "baseUrl": "./",    /* Base directory to resolve non-absolution... */
+    "paths": "{}",      /* A series of entries which re-map... */
+    "rootDirs": "[]",   /* List of root folders whose combined... */
+    "typeRoots": "[]",    /* List of folders to include type def... */
+    "types": [],    /* Type declaretion files to be included... */
+    "allowSyntheticDefaultImports": true,    /* Allow default imports from modules... */
+    "esModuleInterop": true,    /* Enable emit interoperability between... */
+    "preserveSymlinks": true,   /* Do not resolve the real path of sym... */
+
+    /* Source Map Options */
+    "sourceRoot":"",    /* Specify the location where debugger.. */
+    "mapRoot":"",   /* Specify the location where debugger.. */
+    "inlineSourceMap":true,
+    "emitDecoratorMetadata":true,
 
 
   }
