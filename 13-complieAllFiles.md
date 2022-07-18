@@ -79,7 +79,8 @@ tsc --init
     "inlineSources":true,   /* Emit the source alongside the source... */
 
     /* Experimental Options */
-    "emitDecoratorMetadata":true,   /* Enables experimental support for em.. */
+    "experimentalDecorator":true,   /* Enables experimental support for ES7.. */
+    "emitDecoratorMetadata":true,   /* Enables experimental support for emit.. */
 
 
   }
