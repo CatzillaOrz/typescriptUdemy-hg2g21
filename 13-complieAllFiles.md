@@ -55,6 +55,19 @@ tsc --init
     "noImplicitThis": true,   /* Enable  */
     "alwaysStrict": true,   /* Enable  */
 
+    /* code quality | Additional Checks */
+    "noUnusedLocals": true,   /* Report errors */
+    "noUnusedParameters": true,   /* Report errors */
+    "noImplicitReturns": true,   /* Report errors */
+    "noFallthroughCasesInSwitch": true,   /* Report errors */
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": "{}",
+    "rootDirs": "[]",
+    "typeRoots": "[]",
+
 
   }
 }
