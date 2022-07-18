@@ -77,6 +77,8 @@ tsc --init
     "mapRoot":"",   /* Specify the location where debugger.. */
     "inlineSourceMap":true,   /* Emit a single file with source maps... */
     "inlineSources":true,   /* Emit the source alongside the source... */
+
+    /* Experimental Options */
     "emitDecoratorMetadata":true,   /* Enables experimental support for em.. */
 
 
