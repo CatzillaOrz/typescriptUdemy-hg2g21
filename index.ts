@@ -8,7 +8,7 @@ import { UnionType } from './04-UnionType';
 import { LiteralType } from './05-LiteralType';
 import { AliasesCustomTypes } from './06-AliasesCustomTypes';
 import { NeverType } from './11-NeverType';
-
+import { run19 } from './19-Class_Getters_Setters';
 /*
  ** Core Type
  ** [number]
@@ -34,8 +34,10 @@ import { NeverType } from './11-NeverType';
 
 // myFun(AliasesCustomTypes);
 
-myFun(NeverType);
+// myFun(NeverType);
 
 // Write TypeScript code!
 // const appDiv: HTMLElement = document.getElementById('app');
 // appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+
+run19();
