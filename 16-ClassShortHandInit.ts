@@ -12,7 +12,14 @@ class ClassShortHandInit {
   }
 
   describe() {
-    // this.key = 'some xxx'; // Error: readonly Could only be Initialized in new constructor like: new Deparmetn('idxxx', 'name', 'key xxxx')
+    /*
+     **
+     ** readonly Could only be
+     ** Initialized in new constructor like: new Deparmetn('idxxx', ** ** 'name', 'key xxxx')
+     */
+
+    // this.key = 'some xxx'; // Error:
+
     console.log('Deparment:' + `${this.id}, ${this.name}`);
   }
 }
