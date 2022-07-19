@@ -1,25 +1,25 @@
-class InheritaceDepartment {
+class ClassShortHandInit {
+  // private id: string;
+  // private name: string;
+
   constructor(
     private id: string,
     public name: string,
     private readonly key: string
-  ) {}
+  ) {
+    // this.id = id;
+    // this.name = name;
+  }
 
   describe() {
+    /*
+     **
+     ** readonly Could only be
+     ** Initialized in new constructor like: new Deparmetn('idxxx', ** ** 'name', 'key xxxx')
+     */
+
+    // this.key = 'some xxx'; // Error:
+
     console.log('Deparment:' + `${this.id}, ${this.name}`);
-  }
-}
-
-class ExtendDepartment extends InheritaceDepartment {
-  // constructor(){} // Error
-  /*
-   ** ExtendDepartment Shouldn't use constructor
-   ** Should use super() function init like this:
-   **
-   */
-
-  constructor(id: string, private admims: string[]) {
-    super(id, 'IT', 'keys'); // must use super() before `this`
-    this.admims = [];
   }
 }
