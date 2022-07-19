@@ -9,6 +9,12 @@ class ClassGettersSettersDepartment {
 
   addEmployee(employee: string) {
     // validation etc
+    if (!employee) return;
+    this.employees.push(employee);
+  }
+
+  printReport() {
+    console.log(this.employees);
   }
 }
 
@@ -44,14 +50,21 @@ class ExtendClassGettersSettersDepartment extends ClassGettersSettersDepartment 
     this.reports.push(text);
     this.lastReport = text;
   }
+
+  printReport() {
+    console.log(this.reports);
+  }
 }
 
 export function run19() {
   let employee = new ExtendClassGettersSettersDepartment('id01', []);
   // employee.lastReport = '' // Error
+  employee.addReport('Bonjour!');
   employee.addReport('hello');
   // employee.addReport('world');
   console.log(employee.mostRecentReport);
   employee.mostRecentReport = 'World!';
+
   console.log(employee.mostRecentReport);
+  employee.printReport();
 }
