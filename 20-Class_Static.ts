@@ -5,6 +5,19 @@
  **
  */
 
-class ClassStatic {
-  constructor() {}
+class ClassStaticDepartment {
+  constructor(
+    private id: string,
+    public name: string,
+    protected employees: string[]
+  ) {}
+
+  static createEmployee(name: string) {
+    return { name: name };
+  }
+}
+
+export function run20() {
+  const employee = ClassStaticDepartment.createEmployee('Max');
+  console.log(employee);
 }

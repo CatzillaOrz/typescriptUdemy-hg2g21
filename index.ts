@@ -9,6 +9,7 @@ import { LiteralType } from './05-LiteralType';
 import { AliasesCustomTypes } from './06-AliasesCustomTypes';
 import { NeverType } from './11-NeverType';
 import { run19 } from './19-Class_Getters_Setters';
+import { run20 } from './20-Class_Static';
 /*
  ** Core Type
  ** [number]
@@ -40,4 +41,5 @@ import { run19 } from './19-Class_Getters_Setters';
 // const appDiv: HTMLElement = document.getElementById('app');
 // appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 
-run19();
+// run19();
+run20();
