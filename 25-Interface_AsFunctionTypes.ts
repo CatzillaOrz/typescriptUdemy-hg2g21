@@ -3,6 +3,7 @@
  **   [type] used to define functionsTypes
  */
 
+// better
 type AddFun = (a: number, b: number) => number;
 
 // also like this by using [interface]
