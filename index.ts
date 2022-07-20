@@ -10,6 +10,7 @@ import { AliasesCustomTypes } from './06-AliasesCustomTypes';
 import { NeverType } from './11-NeverType';
 import { run19 } from './19-Class_Getters_Setters';
 import { run20 } from './20-Class_Static';
+import { run24 } from './24-Class_CustomVsInterface';
 /*
  ** Core Type
  ** [number]
@@ -43,3 +44,4 @@ import { run20 } from './20-Class_Static';
 
 // run19();
 // run20();
+run24();
