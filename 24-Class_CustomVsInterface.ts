@@ -2,10 +2,16 @@
  **
  **   Don't use [type] instead of [interface]
  **   Why?
+ **   You can't use:
+ **   [x] [private]
+ **   [x] [public]
+ **   [x] [public]
+ **   You can use:
+ **   [√] [readonly]
  */
 
 interface Greetable {
-  name: string;
+  readonly name: string;
 
   greet(phrase: string): void;
 }
@@ -25,5 +31,6 @@ class ClassImplimentGreetable implements Greetable {
 export function run24() {
   let user1: Greetable | ClassImplimentGreetable;
   user1 = new ClassImplimentGreetable('Alice');
+  // user1.name = 'Bob'; //Error Cannot assign to 'name' because it is a read-only property
   console.log(user1);
 }
