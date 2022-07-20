@@ -10,13 +10,25 @@
  **   [√] [readonly]
  */
 
-interface Greetable {
+interface Id {
+  readonly id: string;
+}
+
+interface Greetable extends Id {
   readonly name: string;
 
   greet(phrase: string): void;
 }
 
-class ClassImplimentGreetable implements Greetable {
+/*
+ **   Interface Vs Class
+ **   Interface:
+ **   [√] You can use [interface implements ...]:
+ **   Class:
+ **   [x] You can only [implement] one class once
+ */
+class ClassImplimentGreetable implements Greetable, Id {
+  id: string;
   name: string;
   age = 30;
 
