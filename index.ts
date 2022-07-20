@@ -42,4 +42,4 @@ import { run20 } from './20-Class_Static';
 // appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 
 // run19();
-run20();
+// run20();
