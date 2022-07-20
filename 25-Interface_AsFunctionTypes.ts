@@ -5,7 +5,12 @@
 
 type AddFun = (a: number, b: number) => number;
 
-let add: AddFun;
+// also like this by using [interface]
+interface AddFunCopy {
+  (a: number, b: number): number;
+}
+
+let add: AddFun | AddFunCopy;
 
 add = (n1: number, n2: number) => {
   return n1 + n2;
