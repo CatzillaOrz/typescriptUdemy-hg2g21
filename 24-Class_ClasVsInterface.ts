@@ -1,7 +1,7 @@
 /*
  **
- **   Don't use [type] instead of [interface]
- **   Why?
+ **   [interface]
+ **
  **   You can't use:
  **   [x] [private]
  **   [x] [public]
@@ -21,7 +21,7 @@ interface Greetable extends Id {
 }
 
 /*
- **   Interface Vs Class
+ **   [Interface] Vs [Class]
  **   Interface:
  **   [√] You can use [interface implements ...]:
  **   Class:
