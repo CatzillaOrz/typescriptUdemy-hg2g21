@@ -1,6 +1,6 @@
 /*
- ** [interface] like a blueprint of class as type
- **
+ **   [interface] like a blueprint of class as type
+ **   Used to check type
  **
  */
 
