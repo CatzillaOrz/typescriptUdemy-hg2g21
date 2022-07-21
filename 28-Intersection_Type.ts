@@ -1,3 +1,10 @@
+/*
+ ** [intersection ]basic use in [type]
+ **
+ **
+ **
+ */
+
 type Admin = {
   name: string;
   privileges: string[];
@@ -24,8 +31,8 @@ type Numeric = number | boolean;
 type Universal = Combinable & Numeric;
 
 /*
- **   use type Guards
- **  if(...)
+ **   use type [Guards] in basic types
+ **   if(typeof xx === xxxtype || xx === xxxtype)
  **
  **
  */
@@ -53,3 +60,43 @@ function printEmployeeInformation(emp: UnknownEmployee) {
 printEmployeeInformation({ name: 'Manu', startDate: new Date() });
 
 printEmployeeInformation({ name: 'Manu', privileges: ['Unknown'] });
+
+/*
+ ** use [Guards] in class
+ ** [√] instanceof
+ ** [√] 'xProperty' in Object
+ **
+ **
+ */
+
+class Car {
+  constructor() {}
+
+  drive() {
+    console.log('Driving ...');
+  }
+}
+class Truck {
+  constructor() {}
+
+  drive() {
+    console.log('Driving a truck...');
+  }
+
+  loadCargo(amount: number) {
+    console.log('Loading cargo...' + amount);
+  }
+}
+
+type Vehicle = Car | Truck;
+
+const v1 = new Car();
+const v2 = new Truck();
+
+function useVehicle(vehicle: Vehicle) {
+  vehicle.drive();
+
+  if (vehicle instanceof Truck) {
+    vehicle.loadCargo(1000);
+  }
+}
