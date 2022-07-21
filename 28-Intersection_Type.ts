@@ -100,3 +100,6 @@ function useVehicle(vehicle: Vehicle) {
     vehicle.loadCargo(1000);
   }
 }
+
+useVehicle(v1); // new Car be used
+useVehicle(v2); // new Truck be used as the same
