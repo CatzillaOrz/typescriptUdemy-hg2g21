@@ -8,6 +8,7 @@
  **   [x] [public]
  **   You can use:
  **   [√] [readonly]
+ **   [√] [optional function | property]
  */
 
 interface Id {
