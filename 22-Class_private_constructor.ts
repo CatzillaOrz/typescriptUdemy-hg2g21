@@ -21,6 +21,7 @@ class ExtendClassPrivateContructorSingleton extends ClassPrivateConstructor {
 }
 
 /*
+ **   [Singleton]
  **    private constructor can't be initialized by [new]
  */
 
