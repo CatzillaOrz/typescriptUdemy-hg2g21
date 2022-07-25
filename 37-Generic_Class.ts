@@ -13,6 +13,7 @@ class GenericClassStorage<T extends string | number | boolean> {
   }
 
   removeItem(item: T) {
+    if (this.data.indexOf(item) === -1) return; // Object Array don't work
     this.data.splice(this.data.indexOf(item), 1);
   }
 
