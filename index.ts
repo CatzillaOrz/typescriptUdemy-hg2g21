@@ -12,6 +12,7 @@ import { run19 } from './19-Class_Getters_Setters';
 import { run20 } from './20-Class_Static';
 import { countAndDescribe } from './35-Generic_function';
 import { MetaProgramingPerson } from './43-Decorator_Meta_Programing';
+import { MultiDecoratorPerson } from './44-Decorator_Multi';
 /*
  ** Core Type
  ** [number]
@@ -48,4 +49,6 @@ import { MetaProgramingPerson } from './43-Decorator_Meta_Programing';
 // run24();
 // console.log(countAndDescribe('helloedf'));
 
-myFun(MetaProgramingPerson);
+// myFun(MetaProgramingPerson);
+
+myFun(MultiDecoratorPerson);
