@@ -12,3 +12,9 @@ const fetchUserdata = {
 }
 
 console.log(fetchUserdata?.job?.title)
+
+/* nullish coalescing */
+
+const userinput = ''
+
+const storedData = userInput ?? 'Default'; // output: ''
