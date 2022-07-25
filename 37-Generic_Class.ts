@@ -1,7 +1,7 @@
 /*
  **  [Generic Class]
- **
- **
+ **  [√] Class<T>
+ **  [√] <T> as number | string | custom
  */
 
 class GenericClassStorage<T> {
