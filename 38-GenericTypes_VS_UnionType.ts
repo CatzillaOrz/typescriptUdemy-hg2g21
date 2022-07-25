@@ -1,9 +1,10 @@
 /*
  **  [Union Types]:
  **   [√]: private data: string | number | boolan [Mixed]
+ **   [√]: Flexible
  **   [Generic Types]:
  **   [√]: class DataStorage<T extends string | number | boolean> ; private data <T> [Only one of T]
- **
+ **   [√]: [Lock] in a certain type
  */
 
 class GenericTpyesVsUnitonTypeDataStorage<T extends string | number | boolean> {
