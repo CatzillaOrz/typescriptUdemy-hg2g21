@@ -6,7 +6,10 @@
  **
  */
 
-function merge<T, U>(objA: T, objB: U) {
+function merge<T extends object, U extends object | string | number>(
+  objA: T,
+  objB: U
+) {
   return Object.assign(objA, objB);
 }
 
