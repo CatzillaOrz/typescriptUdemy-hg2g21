@@ -4,7 +4,7 @@
  **   [√] replace old one
  **   [√] return class extends original class
  **   [√] add new funtionality
- **   [*] keep in mind: the new constructor should only be rendered to the dom if I really instantiate my object ! and not all the time when this original decorator function is executed which happens as sonn as we defin the class!
+ **   [*] keep in mind: the new constructor should only be rendered to the dom if I really instantiate my object ! and not all the time when this original decorator function is executed which happens as sonn as we define the class!
  **   [√] [enhancement fix type error]: return function <T extends { new (...args: any[]): { name: string } }>(
     originalConstructor: T
   ) 
