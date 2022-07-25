@@ -15,7 +15,11 @@ import { run45 } from './45-Decorator_Accessor_Parameter';
 import { MetaProgramingPerson } from './46-Decorator_Meta_Programing';
 import { MultiDecoratorPerson } from './43-Decorator_Multi';
 import { PropertyDecoratorProduct, run44 } from './44-Decorator_Property';
-import { run47, GenericMetaProgramingPerson } from './47-Decorator_ClassRetrun';
+import {
+  run47,
+  GenericMetaProgramingPerson,
+  GenericwithTemplate,
+} from './47-Decorator_ClassRetrun';
 /*
  ** Core Type
  ** [number]

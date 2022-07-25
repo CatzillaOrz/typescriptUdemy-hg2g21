@@ -9,7 +9,6 @@
     originalConstructor: T
   ) 
  */
-
 function GenericwithTemplate(template: string, hookId: string) {
   console.log('TEMPLATE FACTORY');
 
