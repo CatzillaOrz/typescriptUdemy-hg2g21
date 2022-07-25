@@ -1,10 +1,11 @@
 /*
  **  [Generic Class]
  **  [√] Class<T>
- **  [√] <T> as number | string | custom
+ **  [√] <T> as number | string | boolan
+ **  [X] <T> as Object | Array
  */
 
-class GenericClassStorage<T> {
+class GenericClassStorage<T extends string | number | boolean> {
   private data: T[] = [];
 
   addItem(item: T) {
