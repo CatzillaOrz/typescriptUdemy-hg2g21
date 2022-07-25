@@ -18,3 +18,5 @@ userInputElement.value = 'Hi there!';
 const userInput = document.getElementById('user-input')! as HTMLInputElement;
 
 userInput.value = 'hi there!';
+
+/* use [!] after `document.getElementById('user-input')`  means not null */
