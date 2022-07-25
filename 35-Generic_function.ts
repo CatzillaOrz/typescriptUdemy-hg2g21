@@ -2,7 +2,9 @@
  **
  **
  **  [Generic function]
- **
+ **   [√] <T,U>
+ **   [√] <T extends object, U>
+ **   [√] <T,U extends string | number>
  **
  */
 
