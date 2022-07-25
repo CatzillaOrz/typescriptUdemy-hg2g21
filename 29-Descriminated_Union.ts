@@ -1,3 +1,10 @@
+/*
+ **   [interface] + [type:'']
+ **   switch case
+ **
+ **
+ */
+
 interface Bird {
   type: 'bird';
   flyingSpeed: number;
