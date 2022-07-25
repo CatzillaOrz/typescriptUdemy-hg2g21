@@ -10,7 +10,7 @@
   ) 
  */
 
-function withTemplate(template: string, hookId: string) {
+function GenericwithTemplate(template: string, hookId: string) {
   console.log('TEMPLATE FACTORY');
 
   return function <T extends { new (...args: any[]): { name: string } }>(
@@ -30,11 +30,15 @@ function withTemplate(template: string, hookId: string) {
   };
 }
 
-@withTemplate('<h1> My Person Object </h1>', 'app')
-export class MetaProgramingPerson {
+@GenericwithTemplate('<h1> My Person Object </h1>', 'app')
+export class GenericMetaProgramingPerson {
   name = 'Max';
 
   constructor() {
     console.log('Creating person object...');
   }
+}
+
+export function run47() {
+  new GenericMetaProgramingPerson();
 }
