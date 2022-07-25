@@ -13,6 +13,7 @@ import { run20 } from './20-Class_Static';
 import { countAndDescribe } from './35-Generic_function';
 import { MetaProgramingPerson } from './43-Decorator_Meta_Programing';
 import { MultiDecoratorPerson } from './44-Decorator_Multi';
+import { PropertyDecoratorProduct, run46 } from './45-Decorator_Property';
 /*
  ** Core Type
  ** [number]
@@ -51,4 +52,7 @@ import { MultiDecoratorPerson } from './44-Decorator_Multi';
 
 // myFun(MetaProgramingPerson);
 
-myFun(MultiDecoratorPerson);
+// myFun(MultiDecoratorPerson);
+// myFun(PropertyDecoratorProduct);
+
+run46();
