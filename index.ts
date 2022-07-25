@@ -11,7 +11,7 @@ import { NeverType } from './11-NeverType';
 import { run19 } from './19-Class_Getters_Setters';
 import { run20 } from './20-Class_Static';
 import { countAndDescribe } from './35-Generic_function';
-
+import { MetaProgramingPerson } from './43-Decorator_Meta_Programing';
 /*
  ** Core Type
  ** [number]
@@ -46,4 +46,6 @@ import { countAndDescribe } from './35-Generic_function';
 // run19();
 // run20();
 // run24();
-console.log(countAndDescribe('helloedf'));
+// console.log(countAndDescribe('helloedf'));
+
+myFun(MetaProgramingPerson);
