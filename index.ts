@@ -11,10 +11,10 @@ import { NeverType } from './11-NeverType';
 import { run19 } from './19-Class_Getters_Setters';
 import { run20 } from './20-Class_Static';
 import { countAndDescribe } from './35-Generic_function';
-import { run43 } from './43-Decorator_Accessor_Parameter';
-import { MetaProgramingPerson } from './43-Decorator_Meta_Programing';
-import { MultiDecoratorPerson } from './44-Decorator_Multi';
-import { PropertyDecoratorProduct, run46 } from './45-Decorator_Property';
+import { run45 } from './45-Decorator_Accessor_Parameter';
+import { MetaProgramingPerson } from './46-Decorator_Meta_Programing';
+import { MultiDecoratorPerson } from './43-Decorator_Multi';
+import { PropertyDecoratorProduct, run44 } from './44-Decorator_Property';
 /*
  ** Core Type
  ** [number]
@@ -56,5 +56,4 @@ import { PropertyDecoratorProduct, run46 } from './45-Decorator_Property';
 // myFun(MultiDecoratorPerson);
 // myFun(PropertyDecoratorProduct);
 
-// run46();
-run43();
+run45();
