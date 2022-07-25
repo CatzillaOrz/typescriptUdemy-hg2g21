@@ -15,6 +15,6 @@ userInputElement.value = 'Hi there!';
 
 /* version 2 */
 
-const userInput = document.getElementById('user-input') as HTMLInputElement;
+const userInput = document.getElementById('user-input')! as HTMLInputElement;
 
 userInput.value = 'hi there!';
