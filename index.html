@@ -15,15 +15,30 @@
     >
       <div class="card">
         <div class="card-body p-2" id="app">
-          <button class="btn btn-primary" id="appbtn">PrimaryBtn</button>
+          <button class="btn btn-primary bg-sky-500 border-sky-500" id="appbtn">
+            Primary Button
+          </button>
         </div>
       </div>
       <!-- card end -->
       <div class="grid">
         <div class="col-12 pt-2">
-          <div class="card">
-            <div class="card-body">
-              <button class="btn btn-primary">Primary</button>
+          <div class="card m-2">
+            <div class="card-body text-sky-400">
+              <form id="formgroup">
+                <label for="customRange1" class="form-label">Title </label>
+                <input id="title" class="form-control mb-2" type="text" />
+                <label for="customRange1" class="form-label">Price </label>
+                <input id="price" class="form-control" type="number" />
+                <button
+                  class="btn btn-primary bg-sky-500 mt-2 border-sky-500"
+                  type="submit"
+                  value="ok"
+                  id="submit"
+                >
+                  Submit
+                </button>
+              </form>
             </div>
           </div>
           <!-- card end -->

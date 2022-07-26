@@ -6,6 +6,13 @@
  **   [√] no need parameter when use @custom like:
  */
 
+/*
+ **  [target: any]:
+ **    [A:] which is the prototype of the object the property sits on
+ **    [B:] or the constructor function if it were a static property
+ ** [name: string]- the property name
+ */
+
 function PropertyDecoratorLog(target: any, propertyName: string | Symbol) {
   console.log('Property decorator excuted...');
   console.log(target, propertyName);
