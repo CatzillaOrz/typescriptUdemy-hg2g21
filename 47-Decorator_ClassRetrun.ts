@@ -41,9 +41,3 @@ export class GenericMetaProgramingPerson {
 export function run47() {
   new GenericMetaProgramingPerson();
 }
-
-/*
- **  Another Decorator Return
- **   [√]: vanilla JS property controls etc.
- **
- */
