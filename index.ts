@@ -18,6 +18,7 @@ import { PropertyDecoratorProduct, run44 } from './44-Decorator_Property';
 import { run47, GenericMetaProgramingPerson } from './47-Decorator_ClassRetrun';
 import { run48 } from './48-Decorator_AutoBind';
 import { run49 } from './49-Decorator_Validation';
+import { run50 } from './50-ClassTransformer';
 /*
  ** Core Type
  ** [number]
@@ -66,4 +67,6 @@ import { run49 } from './49-Decorator_Validation';
 // myFun(GenericMetaProgramingPerson);
 
 // run48();
-run49();
+// run49();
+
+run50();
