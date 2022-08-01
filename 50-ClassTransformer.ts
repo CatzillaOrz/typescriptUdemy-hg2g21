@@ -35,8 +35,8 @@ import { validate } from 'class-validator';
 
 export function run50() {
   const products = [
-    { tilte: 'apple', price: '29.99' },
-    { tilte: 'books', price: '1.99' },
+    { title: 'apple', price: '29.99' },
+    { title: 'books', price: '1.99' },
   ];
 
   const list = plainToInstance(ClassTransformerProduct, products);
